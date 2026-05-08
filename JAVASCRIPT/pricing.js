@@ -17,8 +17,6 @@ billingToggle.addEventListener('change', function() {
         setTimeout(() => {
             priceElement.textContent = isYearly ? yearlyPrice : monthlyPrice;
             priceElement.style.opacity = '1';
-            
-            // ALL prices are black
             priceElement.style.color = '#000000';
         }, 200);
     });
@@ -26,8 +24,6 @@ billingToggle.addEventListener('change', function() {
     // Update period text
     periodElements.forEach(periodElement => {
         periodElement.textContent = isYearly ? 'year' : 'month';
-        
-        // Period color is gray for all cards
         periodElement.style.color = '#888';
     });
 });

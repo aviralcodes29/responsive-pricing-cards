@@ -90,7 +90,7 @@ input:checked + .slider:before {
     transform: translateX(30px);
 }
 
-/* Price Cards */
+/* Price Cards - ALL IDENTICAL */
 .price-row {
     width: 90%;
     max-width: 1200px;
@@ -196,81 +196,6 @@ hr {
     transform: scale(0.98);
 }
 
-/* Featured Plan Styling - BLACK PRICE ON WHITE BOX */
-#featured {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    border: 3px solid #ffd700;
-    transform: scale(1.05);
-}
-
-#featured:hover {
-    transform: translateY(-10px) scale(1.07);
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
-}
-
-/* Featured card title - WHITE */
-#featured p {
-    color: white !important;
-}
-
-#featured-label {
-    color: #ffd700 !important;
-    font-weight: 700;
-    font-size: 28px;
-}
-
-/* Featured card price - BLACK TEXT ON WHITE BACKGROUND */
-#featured h3 {
-    background: white;
-    color: #000000 !important;
-    padding: 20px;
-    border-radius: 12px;
-    margin: 20px 0;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-#featured h3 * {
-    color: #000000 !important;
-}
-
-#featured .currency {
-    color: #667eea !important;
-    font-size: 28px;
-}
-
-#featured .price {
-    color: #000000 !important;
-    opacity: 1 !important;
-}
-
-#featured .period {
-    color: #888 !important;
-    opacity: 1 !important;
-}
-
-/* Featured card list items - WHITE TEXT */
-#featured ul li {
-    color: white !important;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-#featured hr {
-    border-top: 2px solid rgba(255, 255, 255, 0.3);
-}
-
-/* Featured button */
-#featured .select-btn {
-    background: white;
-    color: #667eea;
-    font-weight: 700;
-}
-
-#featured .select-btn:hover {
-    background: #ffd700;
-    color: #333;
-    transform: scale(1.05);
-}
-
 /* Selection Message */
 .selection-message {
     text-align: center;
@@ -319,22 +244,12 @@ hr {
     transform: translateX(5px);
 }
 
-/* Enforce black prices for all cards */
-.price-col h3,
-.price-col .price {
-    color: #000000 !important;
-}
-
-.price-col .currency {
-    color: #667eea !important;
-}
-
-.price-col .period {
-    color: #888 !important;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
+    .pricing-container {
+        padding: 80px 20px 40px;
+    }
+
     .pricing-container h2 {
         font-size: 32px;
     }
@@ -345,21 +260,41 @@ hr {
 
     .price-row {
         grid-gap: 20px;
+        grid-template-columns: 1fr;
     }
 
     .toggle-label {
         font-size: 16px;
     }
 
-    #featured {
-        transform: scale(1);
+    .toggle-container {
+        gap: 10px;
     }
 
-    #featured:hover {
-        transform: translateY(-10px) scale(1.02);
+    .price-col {
+        padding: 30px 20px;
     }
 
-    #featured h3 {
-        padding: 15px;
+    .selection-message {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .pricing-container h2 {
+        font-size: 28px;
+    }
+
+    .price-col h3 {
+        font-size: 36px;
+    }
+
+    .price-col p {
+        font-size: 22px;
+    }
+
+    .select-btn {
+        padding: 12px 30px;
+        font-size: 15px;
     }
 }

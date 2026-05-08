@@ -67,3 +67,39 @@ body {
 .theme-toggle:active {
     transform: scale(0.95);
 }
+
+/* Dark mode specific pricing adjustments */
+[data-theme="dark"] .price-col h3 {
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .price-col .price {
+    color: #ffffff !important;
+}
+
+[data-theme="dark"] .price-col .currency {
+    color: #8f94fb !important;
+}
+
+[data-theme="dark"] .price-col .period {
+    color: #b8b8b8 !important;
+}
+
+[data-theme="dark"] hr {
+    border-top: 2px solid #2c3e50;
+}
+
+[data-theme="dark"] .price-col p {
+    color: #8f94fb !important;
+}
+
+/* Responsive dark mode toggle */
+@media (max-width: 768px) {
+    .theme-toggle {
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+}

@@ -72,9 +72,11 @@ window.addEventListener('scroll', () => {
     
     // Add shadow to navbar on scroll
     const navbar = document.querySelector('.navbar');
-    if (scrollTop > 100) {
-        navbar.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.2)';
-    } else {
-        navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+    if (navbar) {
+        if (scrollTop > 100) {
+            navbar.style.boxShadow = '0 5px 20px rgba(0, 0, 0, 0.2)';
+        } else {
+            navbar.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+        }
     }
 });
