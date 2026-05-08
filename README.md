@@ -101,34 +101,6 @@ open index.html
 - ✅ **No package managers** (npm/yarn)
 - ✅ **Lightweight & Fast** (<50KB total)
 
----
-
-## 📁 Project Structure
-
-
-responsive-pricing-cards/
-│
-├── HTML/
-│   ├── index.html          <br>  
-│   ├── pricing.html        <br>  
-│   ├── features.html       <br>  
-│   ├── contact.html         <br>  
-│   ├── faq.html             <br> 
-│   └── testimonials.html <br>    
-│<br><br>
-├── CSS/
-│   ├── style.css       <br>  
-│   ├── pricing.css     <br>  
-│   ├── features.css    <br>  
-│   ├── contact.css     <br>  
-│   └── dark-mode.css  <br>   
-│<br><br>
-├── JAVASCRIPT/<br>
-│   ├── main.js        <br>   
-│   ├── pricing.js    <br>   
-│   └── dark-mode.js  <br>    
-│<br><br>
-└── README.md    <br>          
 
 ---
 
