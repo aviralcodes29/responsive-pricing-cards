@@ -74,7 +74,7 @@ PricePro is a professional pricing website template featuring three distinct pri
 ### Quick Start
 
 # Clone the repository
-git clone [https://github.com/yourusername/responsive-pricing-cards.git](https://github.com/aviralcodes29/responsive-pricing-cards)
+git clone [https://github.com/aviralcodes29/responsive-pricing-cards.git](https://github.com/aviralcodes29/responsive-pricing-cards)
 
 # Navigate to project directory
 cd responsive-pricing-cards
