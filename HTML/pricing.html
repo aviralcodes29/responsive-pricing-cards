@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans - PricePro</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/pricing.css">
+    <link rel="stylesheet" href="/CSS/dark-mode.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">PricePro</div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="/HTML/index.html">Home</a></li>
+                <li><a href="/HTML/pricing.html" class="active">Pricing</a></li>
+                <li><a href="/HTML/features.html">Features</a></li>
+                <li><a href="/HTML/faq.html">FAQ</a></li>
+                <li><a href="/HTML/testimonials.html">Testimonials</a></li>
+                <li><a href="/HTML/contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Pricing Section -->
+    <div class="pricing-container">
+        <h2>Choose Your Plan</h2>
+        <h3>Select the best option for your needs</h3>
+        
+        <!-- Billing Toggle -->
+        <div class="toggle-container">
+            <span class="toggle-label">Monthly</span>
+            <label class="switch">
+                <input type="checkbox" id="billingToggle">
+                <span class="slider"></span>
+            </label>
+            <span class="toggle-label">Yearly <span class="discount">Save 20%</span></span>
+        </div>
+        
+        <div class="price-row">
+            <!-- Basic Plan -->
+            <div class="price-col" data-plan="basic">
+                <p>Basic</p>
+                <hr>
+                <h3><span class="currency">$</span><span class="price" data-monthly="10" data-yearly="96">10</span>/<span class="period">month</span></h3>
+                <ul>
+                    <li>✓ Access to core features</li>
+                    <li>✓ Email support</li>
+                    <li>✓ 5 projects limit</li>
+                    <li>✓ Basic analytics</li>
+                    <li>✗ API access</li>
+                    <li>✗ Priority support</li>
+                </ul>
+                <button class="select-btn">Select Plan</button>
+            </div>
+            
+            <!-- Pro Plan (Featured) -->
+            <div class="price-col" id="featured" data-plan="pro">
+                <p id="featured-label">Pro ⭐</p>
+                <hr>
+                <h3><span class="currency">$</span><span class="price" data-monthly="25" data-yearly="240">25</span>/<span class="period">month</span></h3>
+                <ul>
+                    <li>✓ All Basic features</li>
+                    <li>✓ Priority support</li>
+                    <li>✓ Unlimited projects</li>
+                    <li>✓ Advanced analytics</li>
+                    <li>✓ API access</li>
+                    <li>✓ Custom integrations</li>
+                </ul>
+                <button class="select-btn">Select Plan</button>
+            </div>
+            
+            <!-- Premium Plan -->
+            <div class="price-col" data-plan="premium">
+                <p>Premium</p>
+                <hr>
+                <h3><span class="currency">$</span><span class="price" data-monthly="50" data-yearly="480">50</span>/<span class="period">month</span></h3>
+                <ul>
+                    <li>✓ All Pro features</li>
+                    <li>✓ 24/7 phone support</li>
+                    <li>✓ Custom integrations</li>
+                    <li>✓ Team collaboration (up to 10)</li>
+                    <li>✓ White-label solutions</li>
+                    <li>✓ Dedicated account manager</li>
+                </ul>
+                <button class="select-btn">Select Plan</button>
+            </div>
+        </div>
+        
+        <!-- Selection Message -->
+        <div class="selection-message" id="selectionMessage"></div>
+
+        <!-- FAQ Link -->
+        <div class="pricing-cta">
+            <p>Have questions about our plans?</p>
+            <a href="/HTML/faq.html" class="faq-link">Visit our FAQ page →</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2026 PricePro. All rights reserved. | Built by Aviral Singh</p>
+    </footer>
+
+    <!-- Dark Mode Toggle -->
+    <button class="theme-toggle" id="themeToggle">🌙</button>
+
+    <script src="/JAVASCRIPT/main.js"></script>
+    <script src="/JAVASCRIPT/pricing.js"></script>
+    <script src="/JAVASCRIPT/dark-mode.js"></script>
+</body>
+</html>
