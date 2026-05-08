@@ -1,26 +1,3 @@
-# responsive-pricing-cards
-Multi-page responsive pricing website with CSS Grid and JavaScript
-
-I've already created the README.md file for you! You can download it from the artifacts section above. Here's how to access it:
-
-***
-
-## **📥 Download Your README.md**
-
-The file is available as **** in the artifacts panel on the right side of this conversation.
-
-**Click on the file to:**
-- 📖 View the full content
-- 💾 Download it to your computer
-- 📋 Copy the content
-
-***
-
-## **Alternative: Copy the Complete Content Below**
-
-Here's the **full README.md content** you can copy directly:
-
-```markdown
 # 🎯 PricePro - Responsive Pricing Cards Website
 
 A modern, fully responsive pricing website built with HTML, CSS, and JavaScript. Features dynamic pricing cards, dark mode toggle, and smooth animations.
@@ -89,34 +66,21 @@ PricePro is a professional pricing website template featuring three distinct pri
 
 ---
 
+## 🎥 Demo
+
+### Live Preview
+> Add your live demo link here after deployment
 
 ### Quick Start
-```bash
+
 # Clone the repository
-git clone https://github.com/aviralcodes29/responsive-pricing-cards.git
+git clone https://github.com/yourusername/responsive-pricing-cards.git
 
 # Navigate to project directory
 cd responsive-pricing-cards
 
 # Open in browser
 open index.html
-```
-
----
-
-## 📸 Screenshots
-
-### Light Mode - Pricing Page
-*Clean, professional pricing cards with gradient background*
-
-### Dark Mode - Pricing Page
-*Comfortable dark theme for reduced eye strain*
-
-### Mobile Responsive View
-*Fully optimized for mobile devices*
-
-### Features Page
-*Comprehensive feature showcase*
 
 ---
 
@@ -141,30 +105,29 @@ open index.html
 
 ## 📁 Project Structure
 
-```
+
 responsive-pricing-cards/
-├── HTML/
-│   ├── index.html              # Homepage
-│   ├── pricing.html            # Pricing page with cards
-│   ├── features.html           # Features showcase
-│   ├── contact.html            # Contact form page
-│   ├── faq.html               # FAQ page (optional)
-│   └── testimonials.html      # Testimonials page (optional)
 │
-├── CSS/
+├── index.html              # Homepage
+├── pricing.html            # Pricing page with cards
+├── features.html           # Features showcase
+├── contact.html            # Contact form page
+├── faq.html               # FAQ page (optional)
+├── testimonials.html      # Testimonials page (optional)
+│
+├── css/
 │   ├── style.css          # Global styles and navbar
 │   ├── pricing.css        # Pricing page specific styles
 │   ├── features.css       # Features page styles
 │   ├── contact.css        # Contact page styles
 │   └── dark-mode.css      # Dark mode theme variables
 │
-├── JAVASCRIPT/
+├── js/
 │   ├── main.js            # Navigation and global functionality
 │   ├── pricing.js         # Pricing card logic and toggles
 │   └── dark-mode.js       # Dark mode toggle functionality
 │
 └── README.md              # Project documentation
-```
 
 ---
 
@@ -178,10 +141,8 @@ responsive-pricing-cards/
 ### Steps
 
 1. **Clone the Repository**
-   ```bash
    git clone https://github.com/aviralcodes29/responsive-pricing-cards.git
    cd responsive-pricing-cards
-   ```
 
 2. **Open in Browser**
    - Double-click `index.html` to open in default browser
@@ -324,40 +285,11 @@ Update the plan names in `pricing.html`:
 
 ## 📱 Responsive Breakpoints
 
-```css
+
 /* Mobile First Approach */
 Default: 320px - 767px   (Mobile)
 Tablet:  768px - 1023px  (Tablet)
 Desktop: 1024px+         (Desktop)
-```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Follow these steps:
-
-1. **Fork the Project**
-   ```bash
-   git clone https://github.com/yourusername/responsive-pricing-cards.git
-   ```
-
-2. **Create Feature Branch**
-   ```bash
-   git checkout -b feature/AmazingFeature
-   ```
-
-3. **Commit Changes**
-   ```bash
-   git commit -m 'Add some AmazingFeature'
-   ```
-
-4. **Push to Branch**
-   ```bash
-   git push origin feature/AmazingFeature
-   ```
-
-5. **Open Pull Request**
 
 ---
 
@@ -403,7 +335,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 - 🎓 B.Tech CSE (AI/ML) - 1st Year Student
 - 📧 Email: [aviral2529@gmail.com]
-- 🐱 GitHub: [@Aviralcodes29](https://github.com/aviralcodes)
+- 🐱 GitHub: [@Aviralcodes29](https://github.com/aviralcodes29)
 
 ---
 
@@ -431,9 +363,8 @@ Have questions or suggestions? Feel free to reach out!
 
 If you found this project helpful, please give it a ⭐️!
 
-```bash
 # Star on GitHub
-https://github.com/yourusername/responsive-pricing-cards
+https://github.com/aviralcodes29/responsive-pricing-cards
 ```
 
 ---
@@ -448,14 +379,6 @@ https://github.com/yourusername/responsive-pricing-cards
 
 ---
 
-## 🔗 Related Projects
-
-- [Your Portfolio Website]
-- [Your Study Tracker]
-- [Your Expense Tracker]
-- [Arduino Projects]
-
 ---
 
 **Built with ❤️ by Aviral Singh | © 2026 PricePro. All rights reserved.**
-```
