@@ -108,21 +108,22 @@ open index.html
 
 responsive-pricing-cards/
 │
-├── index.html              # Homepage
-├── pricing.html            # Pricing page with cards
-├── features.html           # Features showcase
-├── contact.html            # Contact form page
-├── faq.html               # FAQ page (optional)
-├── testimonials.html      # Testimonials page (optional)
+├── HTML/
+│   ├── index.html              # Homepage
+│   ├── pricing.html            # Pricing page with cards
+│   ├── features.html           # Features showcase
+│   ├── contact.html            # Contact form page
+│   ├── faq.html               # FAQ page (optional)
+│   └── testimonials.html      # Testimonials page (optional)
 │
-├── css/
+├── CSS/
 │   ├── style.css          # Global styles and navbar
 │   ├── pricing.css        # Pricing page specific styles
 │   ├── features.css       # Features page styles
 │   ├── contact.css        # Contact page styles
 │   └── dark-mode.css      # Dark mode theme variables
 │
-├── js/
+├── JAVASCRIPT/
 │   ├── main.js            # Navigation and global functionality
 │   ├── pricing.js         # Pricing card logic and toggles
 │   └── dark-mode.js       # Dark mode toggle functionality
